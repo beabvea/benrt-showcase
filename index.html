@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | BR</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="lightbox" id="lightbox">
+  <span class="lightbox-close">&times;</span>
+  <img class="lightbox-img" id="lightbox-img">
+</div>
+
+<nav class="navbar">
+  <div class="logo">BR</div>
+  <ul class="nav-links">
+    <li><a href="#home" class="active">Home</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#tools">Tools</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+  </ul>
+
+<div class="theme-box" id="themeBox">
+  <div class="theme-option" data-theme="dim" data-label="Dim Mode">
+    <i class="fas fa-moon"></i>
+  </div>
+  <div class="theme-option" data-theme="dark" data-label="Dark Mode">
+    <i class="fas fa-star"></i>
+  </div>
+  <div class="theme-indicator" id="themeIndicator"></div>
+  <div class="theme-tooltip">I prefer Dark Mode :D</div>
+</div>
+</nav>
+
+<section class="hero-section" id="home">
+  <div class="hero-text">
+    <h1>Hi, I'm Ben!</h1>
+    <h2>I am a <span id="typing-text">class="typing-text-white"></span></h2>
+    <h3><em>Flexible, reliable, and ready to make your digital world run smoothly.</em></h3>
+    <p class="justified">
+    IT Network Systems graduate, fixing connections, chasing ideas, and always hungry for greatness. Ready to make things happen? Let’s work together!
+    </p>
+
+    <a href="images/resume_brt.pdf" class="btn secondary" download>
+      Download Resume
+    </a>
+  </div>
+
+  <div class="hero-image">
+    <img id="hero-img" src="images/headshot_tulio.jpg" alt="Ben">
+  </div>
+</section>
+<section class="section" id="skills">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card">Technical Support</div>
+    <div class="card">Application Support</div>
+    <div class="card">Networking</div>
+    <div class="card">System Maintenance</div>
+    <div class="card">UI/UX Design</div>
+    <div class="card">Programming</div>
+    <div class="card">Hardware & Software</div>
+    <div class="card">Graphic Design</div>
+  </div>
+</section>
+
+<section class="section" id="tools">
+  <h2>Tools</h2>
+  <div class="grid">
+    <a href="https://www.microsoft.com/microsoft-365" class="card tool-card"><img src="images/microsoft_365.png" alt="Microsoft 365"></a>
+    <a href="https://workspace.google.com/" class="card tool-card"><img src="images/google_workspace.png" alt="Google Workspace"></a>
+    <a href="https://www.canva.com/" class="card tool-card"><img src="images/canva.webp" alt="Canva"></a>
+    <a href="https://tinyurl.com/2sj9c8u2" class="card tool-card"><img src="images/adobe_premiere.png" alt="Adobe Premiere Pro"></a>
+    <a href="https://chatgpt.com/" class="card tool-card"><img src="images/chatgpt_logo.webp" alt="ChatGPT"></a>
+    <a href="https://www.whatsapp.com/" class="card tool-card"><img src="images/whatsapp_logo.png" alt="WhatsApp"></a>
+    <a href="https://slack.com/" class="card tool-card"><img src="images/slack_logo.png" alt="Slack"></a>
+    <a href="https://www.zoom.com/" class="card tool-card"><img src="images/zoom.webp" alt="Zoom"></a>
+    <a href="https://github.com/beabvea" class="card tool-card"><img src="images/github_logo.png" alt="GitHub"></a>
+    <a href="https://web.telegram.org/" class="card tool-card"><img src="images/telegram_logo.png" alt="Telegram"></a>
+    <a href="https://www.viber.com/en/" class="card tool-card"><img src="images/viber_logo.png" alt="Viber"></a>
+    <a href="https://wordpress.com/" class="card tool-card"><img src="images/wordpress_logo.png" alt="WordPress"></a>
+    <a href="https://www.notion.com/" class="card tool-card"><img src="images/notion_logo.png" alt="Notion"></a>
+    <a href="https://code.visualstudio.com/" class="card tool-card"><img src="images/visual_studio_code_logo.png" alt="Visual Studio Code"></a>
+    <a href="https://obsproject.com/" class="card tool-card"><img src="images/obs_logo.png" alt="OBS"></a>
+  </div>
+</section>
+
+<section class="section" id="experience">
+  <h2>Experience</h2>
+  <div class="experience-container">
+
+    <div class="exp-card">
+      <div class="exp-header">
+        <i class="fas fa-headset"></i>
+        <div>
+          <h3>IT Staff – Technical Support</h3>
+          <span>Hands-on IT Support Role</span>
+        </div>
+      </div>
+      <p>
+        Provided technical support, troubleshooting system issues, and maintaining smooth operations for users and devices.
+      </p>
+    </div>
+
+    <div class="exp-card">
+      <div class="exp-logo-wrapper">
+        <img src="images/gensan_logo.jpg" alt="ICT Logo" class="exp-logo">
+        <div class="exp-text">
+          <h3>OJT – Information & Communication Technology Division</h3>
+          <h4>The City Mayor's Office - Information and Communication Technology Division (CMO-ICTD)</h4>
+          <span>January 2025 - May 2025</span>
+        </div>
+      </div>
+      <p>
+        Gained hands-on experience in system support, document preparation, hardware setup, networking, and IT operations for the Local Government of General Santos City.
+      </p>
+
+      <div class="album">
+        <div class="album-slide active">
+          <img src="images/pic1.jpg">
+          <p>MSU-Gensan OJTs, OJT Coordinator, and ICTD Employees</p>
+        </div>
+        <div class="album-slide">
+          <img src="images/pic2.jpg">
+          <p>My CMO-ICTD OJT ID</p>
+        </div>
+        <div class="album-slide">
+          <img src="images/pic3.jpg">
+          <p>Creating User Manual Contents</p>
+        </div>
+        <div class="album-slide">
+          <img src="images/pic4.jpg">
+          <p>Rectifying Data Server Issue</p>
+        </div>
+        <div class="album-slide">
+          <img src="images/pic5.jpg">
+          <p>Installation of Equipment and Network Setup</p>
+        </div>
+        <div class="album-slide">
+          <img src="images/pic6.jpg">
+          <p>ICTD and CEMCDO Collaboration - MSU-Gensan OJTs</p>
+        </div>
+
+        <button class="album-btn prev">&#10094;</button>
+        <button class="album-btn next">&#10095;</button>
+        <div class="album-dots"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card project-section" id="victor-system">VICTOR System</div>
+    <div class="card project-section" id="cmis-system">CMIS System</div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="icons">
+    <a href="https://www.facebook.com/richard.steel.90226" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com/2e3z4b12t/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://github.com/beabvea" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/ben-richard-tulio-812737326" target="_blank"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <p>© 2026 Ben Richard Tulio. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
