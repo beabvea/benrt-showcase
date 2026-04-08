@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     setTimeout(() => {
       if (theme === "dark") {
-        heroImg.src = "images/headshot_tulio_photoroom.jpg";
+        heroImg.src = "images/headshot_tulio_photoroom.png";
       } else {
-        heroImg.src = "images/headshot_tulio.jpg";
+        heroImg.src = "images/headshot_tulio.png";
       }
 
       heroImg.style.opacity = 1;
@@ -225,7 +225,7 @@ function updateHeroImage(theme) {
     if (theme === "dark") {
       heroImg.src = "images/headshot_tulio_photoroom.png"; // ✅ PNG
     } else {
-      heroImg.src = "images/headshot_tulio.jpg";
+      heroImg.src = "images/headshot_tulio.png";
     }
 
     heroImg.style.opacity = 1;
